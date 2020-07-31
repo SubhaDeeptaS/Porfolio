@@ -69,7 +69,7 @@ h4{
 
 #education{
     padding: 7% 10%;
-    background-image: url(../images/edu1.jpg);
+    background-image: url(../images/pic1.jpg);
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -150,14 +150,15 @@ h4{
 
 /* Experience */
 #experience{
-  padding: 7% 8%;
+    background-image: url(../images/pic1.jpg);
+  padding: 6% 8%;
   text-align: center;
 }
 
 .exp-box{
-  padding: 2.5%;
+  padding: 2%;
   text-align: center;
-  margin: 4% 0;
+  margin: 3% 0;
 }
 .exp-pic{
     height:20%;
@@ -393,6 +394,7 @@ h4{
 /* Skills */
 
 #skills{
+    background-image: url(../images/pic1.jpg);
   padding: 5% 4% 10%;
   text-align: center;
 }
@@ -412,6 +414,9 @@ h4{
 
 
 /* Awards */
+#awards{
+    text-align: center;
+}
 .aw{
     background-size: contain;
     height: 100%;
