@@ -10,17 +10,24 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="webicon.ico">
 
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,500&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 
   <script src="https://kit.fontawesome.com/2e5afc2d93.js" crossorigin="anonymous"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    
+
   <script>
     new WOW().init();
   </script>
+
+
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -28,58 +35,57 @@
 </head>
 
 <body>
+  <header>
+          <!-- Nav Bar -->
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <!--        <a class="navbar-brand" href="#">Subhadeepta</a>-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link home" href="#title">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#training">Training</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#awards">Awards</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+  </header>
 
   <section id="title">
     <div class="container-fluid">
-
-
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-<!--        <a class="navbar-brand" href="#">Subhadeepta</a>-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#title">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#training">Training</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#awards">Awards</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-
       <!-- Title -->
       <div class="row">
 
 
         <div class="col-lg-6">
-          <h1>I'm Subhadeepta</h1>
-            <p id="simpleUsage"></p>
+          <h1 class="main-head">I'm Subhadeepta</h1>
+          <h3 class="main-sub">M<span class="desp"></span></h3>
         </div>
-          <!-- i am mechanical-->
-   
-          
+        <!-- i am mechanical-->
+
+
         <div class="col-lg-6">
-          <img class="title-image" src="images/mypic.png" alt="mypic">
+          <img class="title-image" src="images/subhadeepta.png" alt="mypic">
         </div>
 
       </div>
@@ -94,115 +100,117 @@
   <section id="education">
 
     <h1>Education</h1>
-    <i class="fas fa-graduation-cap fa-2x"></i>
+    <i class="fas fa-university fa-2x"></i>
     <div class="row">
-      <div class="education-box  col-lg-3 col-md-6 wow slideInLeft">
+      <div class="education-box  col-lg-3 col-md-6 col-sm-6 wow slideInLeft">
         <div class="card shadow">
-                    <div class="inner">
-                        <img class="card-img-top" src="images/carmel.jpg" alt="Card image cap">
-                    </div>
-                    <div class="card-body text-center">
-                      <h5 class="card-title">Carmel English Medium School</h5>
-                        <hr>
-                        <h6>(High School)</h6>
-                      <p class="card-text">
-                          Passed - 2011 <br/>
-                          Percentage - 92.7%<br/>
-                          Board - ICSE
-                        
-                      </p>
-                    </div>
-                  </div>
+          <div class="inner">
+            <img class="card-img-top" src="images/carmel.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title edu-title">Carmel English Medium School, Phulbani</h5>
+            <hr>
+            <h6>(High School)</h6>
+            <p class="card-text edu-text">
+              Passed - 2011 <br />
+              Percentage - 92.7%<br />
+              Board - ICSE
+
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div class="education-box  col-lg-3 col-md-6 wow slideInUp">
+      <div class="education-box  col-lg-3 col-md-6 col-sm-6 wow slideInUp">
         <div class="card shadow">
-                    <div class="inner">
-                        <img class="card-img-top " src="images/mothers.jpg" alt="Card image cap">
-                    </div>
-                    <div class="card-body text-center">
-                      <h5 class="card-title">Mothers' Public School,BBSR</h5>
-                        <hr>
-                        <h6>(Intermediate)</h6>
-                      <p class="card-text">
-                        Passed - 2013 <br/>
-                          Percentage - 95.8%<br/>
-                          Board - CBSE
-                      </p>
-                    </div>
-                  </div>
+          <div class="inner">
+            <img class="card-img-top " src="images/mothers.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title edu-title">Mothers' Public School,BBSR</h5>
+            <hr>
+            <h6>(Intermediate)</h6>
+            <p class="card-text edu-text">
+              Passed - 2013 <br />
+              Percentage - 95.8%<br />
+              Board - CBSE
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div class="education-box  col-lg-3 col-md-6 wow slideInUp">
+      <div class="education-box  col-lg-3 col-md-6 col-sm-6 wow slideInUp">
         <div class="card shadow">
-                    <div class="inner">
-                        <img class="card-img-top edu-pic" src="images/iiitdm.jpg" alt="Card image cap">
-                    </div>
-                    <div class="card-body text-center">
-                      <h5 class="card-title">PDPM IIITDM Jabalpur</h5>
-                      <hr>
-                        <h6>(B.Tech)</h6>
-                      <p class="card-text">
-                          Passed - 2018 <br/>
-                          CGPA - 9.1<br/>
-                          (Silver Medalist)
-                        
-                      </p>
-                    </div>
-                  </div>
+          <div class="inner">
+            <img class="card-img-top edu-pic" src="images/iiitdm.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title edu-title">PDPM IIITDM Jabalpur</h5>
+            <hr>
+            <h6>(B.Tech)</h6>
+            <p class="card-text edu-text">
+              Passed - 2018 <br />
+              CGPA - 9.1<br />
+              (Silver Medalist)
+
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div class="education-box  col-lg-3 col-md-6 wow slideInRight">
+      <div class="education-box  col-lg-3 col-md-6 col-sm-6 wow slideInRight">
         <div class="card shadow">
-                    <div class="inner">
-                        <img class="card-img-top edu-pic" src="images/nit.jpg" alt="Card image cap">
-                    </div>
-                    <div class="card-body text-center">
-                      <h5 class="card-title">NIT Rourkela</h5>
-                      <hr>
-                        <h6>(M.Tech)</h6>
-                      <p class="card-text">
-                          Passed - 2011 <br/>
-                          CGPA - 9.78<br/>
-                        
-                      </p>
-                    </div>
-                  </div>
+          <div class="inner">
+            <img class="card-img-top edu-pic" src="images/nit.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title edu-title">NIT Rourkela</h5>
+            <hr>
+            <h6>(M.Tech)</h6>
+            <p class="card-text edu-text">
+              Pursuing<br />
+              Current CGPA - 9.78<br />
+
+            </p>
+          </div>
+        </div>
       </div>
-      </div>
+    </div>
 
   </section>
 
   <!-- Training -->
   <section id="training">
     <h1>Training</h1>
+    <i class="fas fa-school fa-2x"></i>
     <div class="training-box1 row wow slideInLeft">
       <div class="col-md-5 training-title1">
-        <h2>CTTC, BBSR</h2>
-        
+        <h2 class="training-head">CTTC</h2>
+
       </div>
       <div class="col-md-7 training-desc">
-        <h3>Short term course on ANSYS</h3>
-          <p>Dec 1 - 15, 2015</p>
-        <p>The training comprised of: Structural Linear Analysis, Thermal, ANSYS Workbench(basic).</p>
-
-        <h3>Short term course on CATIA</h3>
-          <p>Jun 1 - 30, 2015</p>
-        <p>The training comprised of: Introduction to CAD/CAM/CAE, Part Design, Assembly Design,
-Kinematic Simulation.</p>
+        <h3 class="training-topic">Short term course on ANSYS</h3>
+        <p>Dec 1 - 15, 2015</p>
+        <p class="training-details">The training comprised of: Structural Linear Analysis, Thermal, ANSYS Workbench(basic).</p>
+        <hr>
+        <h3 class="training-topic">Short term course on CATIA</h3>
+        <p>Jun 1 - 30, 2015</p>
+        <p class="training-details">The training comprised of: Introduction to CAD/CAM/CAE, Part Design, Assembly Design,
+          Kinematic Simulation.</p>
 
       </div>
     </div>
 
     <div class="training-box2 row wow slideInRight">
       <div class="col-md-7 training-desc">
-        <h3>Summer Training</h3>
-        <p>The training comprised of: The basic idea about the working of various engines used in fighter jets and commercial airplanes and also about the engines used in millitary jets like Sukhoi-30 and MiG aircrafts. The basic idea about the overhauling of engines was also provided. </p>
+        <h3 class="training-topic">Summer Training</h3>
+        <p>June 1 - 29, 2016</p>
+        <p class="training-details">The training comprised of: The basic idea about the working of various engines used in fighter jets and commercial airplanes and also about the engines used in millitary jets like Sukhoi-30 and MiG aircrafts. The basic idea about the
+          overhauling of engines was also provided. </p>
       </div>
 
       <div class="col-md-5 training-title2">
-        <h2>HAL</h2>
-        <p>Jun 1 - 29, 2016</p>
+        <h2 class="training-head">HAL</h2>
       </div>
     </div>
 
@@ -211,121 +219,122 @@ Kinematic Simulation.</p>
 
   <section id="experience">
 
-    <h1>Experience</h1>
-
+    <h1 class="exp-heading">Experience</h1>
+    <i class="fas fa-book-open fa-2x"></i>
     <div class="exp-row row">
       <div class="exp-box col-md-4">
         <!-- <img class="exp-pic" src="images/carmel.jpg" alt="carmel"> -->
         <div class="quote-container">
-      <i class="pin wow slideInDown"></i>
-            
-  <div class="note yellow wow slideInUp">
-      <img src = "images/chegg.jpg" class = "exp-pic rounded-circle" alt = "chegg">
-      <h3> Subject Matter Expert</h3>
-      <p class = "edu-des">Freelancing as a Subject Expert in Mechanical Engineering and Physics
-in Chegg India and solved more than 1800 questions till date.</p>
-    <cite class="author">2018 - Present</cite>
-  </div>
+          <i class="pin wow slideInDown"></i>
 
-</div>
+          <div class="note yellow wow slideInUp">
+            <img src="images/chegg.jpg" class="exp-pic rounded-circle" alt="chegg">
+            <h3 class="exp-title"> Subject Matter Expert</h3>
+            <p class="exp-des">Freelancing as a Subject Expert in Mechanical Engineering and Physics
+              in Chegg India and solved more than 1800 questions till date.</p>
+            <cite class="author">2018 - Present</cite>
+          </div>
+
+        </div>
       </div>
-        <div class="exp-box col-md-4">
+      <div class="exp-box col-md-4">
         <!-- <img class="exp-pic" src="images/carmel.jpg" alt="carmel"> -->
         <div class="quote-container">
-      <i class="pin wow slideInDown"></i>
-  <div class="note yellow2 wow slideInUp">
-      <img src = "images/study.jpg" class = " exp-pic rounded-circle" alt = "study">
-      <h3> Subject Matter Expert</h3>
-      <p class = "edu-des">Freelancing as a Subject Expert for Study.com and helping students
-by providing solutions to assignments posted by students.</p>
-    <cite class="author">2019 - Present</cite>
-  </div>
+          <i class="pin wow slideInDown"></i>
+          <div class="note yellow2 wow slideInUp">
+            <img src="images/study.jpg" class=" exp-pic rounded-circle" alt="study">
+            <h3 class="exp-title"> Subject Matter Expert</h3>
+            <p class="exp-des">Freelancing as a Subject Expert for Study.com and helping students
+              by providing solutions to assignments posted by students.</p>
+            <cite class="author">2019 - Present</cite>
+          </div>
 
-</div>
+        </div>
       </div>
-        <div class="exp-box col-md-4">
+      <div class="exp-box col-md-4">
         <!-- <img class="exp-pic" src="images/carmel.jpg" alt="carmel"> -->
         <div class="quote-container">
-      <i class="pin wow slideInDown"></i>
-  <div class="note yellow wow slideInUp">
-      <img src = "images/nume.png" class = " exp-pic rounded-circle" alt = "numerade">
-      <h3> Educator</h3>
-      <p class = "edu-des">Freelancing as a Subject Expert for Study.com and helping students
-by providing solutions to assignments posted by students.</p>
-    <cite class="author">June, 2020 - Present</cite>
-  </div>
+          <i class="pin wow slideInDown"></i>
+          <div class="note yellow wow slideInUp">
+            <img src="images/nume.png" class=" exp-pic rounded-circle" alt="numerade">
+            <h3 class="exp-title"> Educator</h3>
+            <p class="exp-des">Freelancing as a Subject Expert for Study.com and helping students
+              by providing solutions to assignments posted by students.</p>
+            <cite class="author">2020 - Present</cite>
+          </div>
 
-</div>
+        </div>
       </div>
-      </div>
+    </div>
 
   </section>
 
 
   <!-- Projects -->
-    <section id = "projects">
+  <section id="projects">
 
-<h1 class = "pp">Projects</h1>
-<div class="wrapper">
-  <div class="timeline">
-    <dl class="timeline--entry wow slideInRight">
-      <dt class="timeline--entry__title">Milling chatter analysis</dt>
-      <dd class="timeline--entry__detail">The project focused on detection of chatter in slot milling operation using signal processing techniques like Wavelet Packet Decomposition and Hilbert Huang Transform</dd>
-    </dl>
-    <dl class="timeline--entry wow slideInLeft">
-      <dt class="timeline--entry__title">Smart Warehouse Cleaning Robot</dt>
-      <dd class="timeline--entry__detail"> The project aimed to design and fabricate a semi-autonomous robot to clean warehouse compartments.</dd>
-    </dl>
-    <dl class="timeline--entry wow slideInRight">
-      <dt class="timeline--entry__title">Vehicle Routing and scheduling in cross docking in a supply chain</dt>
-      <dd class="timeline--entry__detail">The project aimed to create a mathematical model of cross docking in LINGO and provide a solution.</dd>
-    </dl>
-    <dl class="timeline--entry wow slideInLeft">
-      <dt class="timeline--entry__title">Manufacturing of Hand Injection Mould at CTTC, BBSR</dt>
-      <dd class="timeline--entry__detail">The project was done using Conventional Turning, Milling and Grinding.</dd>
-    </dl>
-    <dl class="timeline--entry wow slideInRight">
-      <dt class="timeline--entry__title">Manufacturing of Press Tool at CTTC, BBSR</dt>
-      <dd class="timeline--entry__detail">The project was done using Conventional Turning, Milling and Grinding</dd>
-    </dl>
-  </div>
-</div>
-    </section>
+    <h1 class="pp">Projects</h1>
+    <i class="fas fa-tasks fa-2x"></i>
+    <div class="wrapper">
+      <div class="timeline">
+        <dl class="timeline--entry wow slideInRight">
+          <dt class="timeline--entry__title pro-title">Milling chatter analysis</dt>
+          <dd class="timeline--entry__detail pro-desc">The project focused on detection of chatter in slot milling operation using signal processing techniques like Wavelet Packet Decomposition and Hilbert Huang Transform</dd>
+        </dl>
+        <dl class="timeline--entry wow slideInLeft">
+          <dt class="timeline--entry__title pro-title">Smart Warehouse Cleaning Robot</dt>
+          <dd class="timeline--entry__detail pro-desc"> The project aimed to design and fabricate a semi-autonomous robot to clean warehouse compartments.</dd>
+        </dl>
+        <dl class="timeline--entry wow slideInRight">
+          <dt class="timeline--entry__title pro-title">Vehicle Routing and scheduling in cross docking in a supply chain</dt>
+          <dd class="timeline--entry__detail pro-desc">The project aimed to create a mathematical model of cross docking in LINGO and provide a solution.</dd>
+        </dl>
+        <dl class="timeline--entry wow slideInLeft">
+          <dt class="timeline--entry__title pro-title">Manufacturing of Hand Injection Mould at CTTC, BBSR</dt>
+          <dd class="timeline--entry__detail pro-desc">The project was done using Conventional Turning, Milling and Grinding.</dd>
+        </dl>
+        <dl class="timeline--entry wow slideInRight">
+          <dt class="timeline--entry__title pro-title">Manufacturing of Press Tool at CTTC, BBSR</dt>
+          <dd class="timeline--entry__detail pro-desc">The project was done using Conventional Turning, Milling and Grinding</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
 
 
   <!-- Skills -->
   <section id="skills">
     <h1>Skills</h1>
-
+    <i class="fas fa-laptop-code fa-2x"></i>
     <div class="row">
-      <div class="skill-box col-md-6 col-lg-2">
-        <img class="skill-pic rounded-circle" src="images/catia.png" alt="carmel">
-        <h3>CATIA</h3>
+      <div class="skill-box col-6 col-lg-2">
+        <img class="skill-pic rounded-circle wow tada" src="images/catia.png" alt="carmel">
+        <h3 class="skill-title">CATIA</h3>
       </div>
 
-      <div class="skill-box col-md-6 col-lg-2">
-        <img class="skill-pic rounded-circle" src="images/ansys.png" alt="carmel">
-        <h3>ANSYS</h3>
+      <div class="skill-box col-6 col-lg-2">
+        <img class="skill-pic rounded-circle wow tada" src="images/ansys.png" alt="carmel">
+        <h3 class="skill-title">ANSYS</h3>
       </div>
 
-      <div class="skill-box col-md-6 col-lg-2">
-        <img class="skill-pic rounded-circle" src="images/solidworks.jpg" alt="carmel">
-        <h3>SolidWorks</h3>
+      <div class="skill-box col-6 col-lg-2">
+        <img class="skill-pic rounded-circle wow tada" src="images/solidworks.jpg" alt="carmel">
+        <h3 class="skill-title">SolidWorks</h3>
       </div>
 
-      <div class="skill-box col-md-6 col-lg-2">
-        <img class="skill-pic rounded-circle" src="images/matlab.jpg" alt="carmel">
-        <h3>MATLAB</h3>
+      <div class="skill-box col-6 col-lg-2">
+        <img class="skill-pic rounded-circle wow tada" src="images/matlab.jpg" alt="carmel">
+        <h3 class="skill-title">MATLAB</h3>
       </div>
 
-      <div class="skill-box col-md-6 col-lg-2">
-        <img class="skill-pic rounded-circle" src="images/c1.png" alt="carmel">
-        <h3>C Programming</h3>
+      <div class="skill-box col-6 col-lg-2">
+        <img class="skill-pic rounded-circle wow tada" src="images/c1.png" alt="carmel">
+        <h3 class="skill-title">C Programming</h3>
       </div>
 
-      <div class="skill-box col-md-6 col-lg-2">
-        <img class="skill-pic rounded-circle" src="images/python.png" alt="carmel">
-        <h3>Python</h3>
+      <div class="skill-box col-6 col-lg-2">
+        <img class="skill-pic rounded-circle wow tada" src="images/python.png" alt="carmel">
+        <h3 class="skill-title">Python</h3>
       </div>
     </div>
 
@@ -336,69 +345,55 @@ by providing solutions to assignments posted by students.</p>
 
   <!-- Testimonials -->
 
-<!--Carousel Wrapper-->
-   <section id = "awards">
-       <h1>Awards</h1>
-<div id="award" class="carousel slide carousel-fade" data-ride="carousel">
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-2" data-slide-to="1"></li>
-    <li data-target="#carousel-example-2" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <div class="view">
-        <img class="d-block w-100 aw" src="images/japan.JPG"
-          alt="First slide">
-        <div class="mask rgba-black-light"></div>
+  <!--Carousel Wrapper-->
+  <section id="awards">
+    <h1>Awards</h1>
+    <i class="fas fa-award fa-2x"></i>
+    <div id="award" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      </ol>
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="view">
+            <img class="d-block w-100 aw" src="images/japan.JPG" alt="First slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">Participant of JENESYS Programme</h3>
+            <p>Conducted by JICA</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100 aw" src="images/medal.jpg" alt="Second slide">
+            <div class="mask rgba-black-strong"></div>
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">Silver Medalist</h3>
+            <p>IIITDM Jabalpur</p>
+          </div>
+        </div>
       </div>
-      <div class="carousel-caption">
-        <h2 class="h2-responsive">Participant of JENESYS Programme</h2>
-        <p>Conducted by JICA</p>
-      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#award" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#award" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
     </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100 aw" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
-          alt="Second slide">
-        <div class="mask rgba-black-strong"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Strong mask</h3>
-        <p>Secondary text</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100 aw" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
-          alt="Third slide">
-        <div class="mask rgba-black-slight"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Participant of JENESYS Programme</h3>
-        <p>Conducted by JICA</p>
-      </div>
-    </div>
-  </div>
-  <!--/.Slides-->
-  <!--Controls-->
-  <a class="carousel-control-prev" href="#award" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#award" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  <!--/.Controls-->
-</div>
-    </section>
-<!--/.Carousel Wrapper-->
+  </section>
+  <!--/.Carousel Wrapper-->
 
   <!-- Press -->
 
@@ -488,7 +483,30 @@ by providing solutions to assignments posted by students.</p>
 
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script>
+    var typed = new Typed('.desp', {
+      strings: ["echanical Engineer"],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true,
+      showCursor: false
+    });
+  </script>
 
+<script>
+  $(document).ready(function(){
+    $(window).scroll(function() { // check if scroll event happened
+      if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+        $(".navbar").css("background", "#000"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+      } else {
+        $(".navbar").css({background:'linear-gradient(to right, #333333, #dd1818)'}); // if not, change it back to transparent
+      }
+    });
+  });
+</script>
+
+<script src="index.js"></script>
 </body>
 
 </html>
