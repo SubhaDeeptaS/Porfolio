@@ -86,8 +86,9 @@ h4{
 
 #education{
     padding: 7% 10%;
-    background-image: url(../images/pencils.jpg);
+    background-image: url(../images/picb1.png);
     background-size: cover;
+    background-color: white;
     position: relative;
     z-index: 1;
     text-align: center;
@@ -203,7 +204,8 @@ h4{
 
 /* Experience */
 #experience{
-    background-image: url(../images/pic1.jpg);
+background-image: url(../images/picb1.png);
+    background-size: cover;
   padding: 6% 8%;
   text-align: center;
 }
@@ -458,7 +460,8 @@ h4{
 /* Skills */
 
 #skills{
-    background-image: url(../images/pic1.jpg);
+    background-image: url(../images/picb1.png);
+    background-size: cover;
   padding: 8% 4% 10%;
   text-align: center;
 }
@@ -607,6 +610,11 @@ width: 70px;
   #award{
     height: 50%;
     width: 100%;
+  }
+}
+@media (max-width:991px){
+     .navbar{
+    text-align: center;
   }
 }
 
