@@ -510,37 +510,13 @@ h2{
   color: #000;
 }
 
-.dog-image{
-width: 70px;
-    height: 70px;
-  border-radius: 100%;
-  margin: 20px;
-}
 
 .carousel-item{
   padding: 0% 0%;
 }
 
-#press{
-  background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3rem;
-}
 
-.press-image{
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-
-#pricing{
-  padding: 100px;
-  text-align: center;
-}
-
-
-
-
+/* Media Queries */
 @media (max-width: 1028px) {
 
   #title{
@@ -567,9 +543,32 @@ width: 70px;
 
 @media (max-width: 767px){
 
-  .navbar{
-    text-align: center;
+  #education{
+    padding-top: 11%;
   }
+
+  #training{
+    padding-top: 11%;
+  }
+
+  #experience{
+    padding-top: 10%;
+  }
+
+  #projects{
+    padding-top: 8%;
+  }
+
+  #skills{
+    padding-top: 11%;
+  }
+
+  #awards{
+    padding-top: 10%;
+  }
+
+
+
 
   .training-box1{
     border: solid #000 2px;
